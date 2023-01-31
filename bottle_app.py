@@ -11,7 +11,7 @@ def hello_public():
 
 @route('/redirect')
 def hello_public():
-    return 'This is a  public message'
+    return 'This is a  redirect message'
     
 @route('/')
 def hello_world():
